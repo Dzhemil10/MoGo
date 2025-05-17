@@ -7,3 +7,8 @@
 body {
     background-color: var(--background);
 }
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Kaushan Script", sans-serif;
+}

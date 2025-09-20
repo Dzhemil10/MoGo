@@ -1,0 +1,52 @@
+:root {
+    --background: rgb(255, 255, 255);
+    --sub_title-color:#333333;
+    --title-color:#333333;
+    --text-color:#B6B6B6;
+}
+body {
+    background-color: var(--background);
+}
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --second-font: "Roboto", sans-serif;
+  --third-font: "Kaushan Script", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка сайту */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  gap: 55px;
+}
+
+/* Перша секція */
+
+.services-list {
+display: flex;
+column-gap: 70px;
+flex-wrap: wrap;
+gap: 102px;
+}
+
+/* Друга секція */
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+/* Підвал сайту */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
